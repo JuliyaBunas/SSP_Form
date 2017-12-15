@@ -1,0 +1,116 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color:#eee8f6;
+}
+
+header {
+ 	background-color: #6737b9;
+ 	width: 100%;
+    height: 300px;
+}
+.form {
+ 	margin: -100px auto 0;
+	background-color: white;
+	border-style: solid;
+	border-color: #e0dbe9;
+	border-width: 2px;
+	border-top: 7px solid #b68bff;
+	width: 55%;
+}
+
+.main {
+ 	padding: 10px 50px;
+ 	font-family: NuOrder Thin, sans-serif;
+ 	font-weight: normal;
+}
+
+.indent {
+ 	background-color: #b388ff;
+ 	width: 100%;
+ 	height: 10px;
+}
+
+.first {
+	border-width: 0 0 2px 0;
+}
+
+.red {
+	color: red;
+}
+
+input[type=text] {
+	height: 20px;
+	font-size: 15px;
+	color: #c5c8c9;
+}
+
+input[type=date] {
+	color: black;
+	height: 20px;
+	font-size: 20px;
+}
+
+select {
+	height: 20px;
+	font-size: 15px;
+	color: #757575;
+	border: none;
+	background-color: white;
+}
+
+.color input {
+	margin-bottom: 20px;
+}
+
+.year input {
+	margin-bottom: 20px;
+}
+
+
+#button {
+ 	border-radius: 3px;
+ 	border: 0px;
+ 	margin-top: 50px;
+ 	background-color: #4086f4;
+ 	padding: 10px;
+ 	color: white;
+ 	width: 90px
+
+}
+
+.date {
+ 	border-width: 0 0 2px 0;
+}
+
+#note {
+ 	color: gray;
+ 	font-size: 13px;
+}
+
+footer {
+ 	margin-top: 100px;
+ 	text-align: center;
+ 	color: #646464;
+ 	width: 50%;
+ 	padding: 50px 0;
+ 	margin: 0 auto;
+}
+
+footer h2 {
+	margin-bottom: 0px;
+}
+
+.image label {
+   cursor: pointer;
+   color: blue;
+   text-decoration: underline;
+   /* Style as you please, it will become the visible UI component. */
+}
+
+#upload-photo {
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+}
